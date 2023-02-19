@@ -11,4 +11,4 @@ async def send_message(text):
     await bot.send_message(chat_id=chat_id, text=text)
 
 if __name__ == '__main__':
-    asyncio.run(send_message('Messag!'))
+    asyncio.run(send_message('Message!'))
